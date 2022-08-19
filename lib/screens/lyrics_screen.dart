@@ -43,11 +43,9 @@ class LyricsScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Center(
-                            child: Expanded(
-                          child: Text(track.trackName,
-                              style: TextStyle(
-                                  color: Colors.indigo[100], fontSize: 40)),
-                        )),
+                            child: Text(track.trackName,
+                                style: TextStyle(
+                                    color: Colors.indigo[100], fontSize: 40))),
                         const SizedBox(
                           height: 10,
                         ),
